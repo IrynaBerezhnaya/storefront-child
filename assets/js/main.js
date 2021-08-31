@@ -1,7 +1,5 @@
 jQuery(document).ready(function ($) {
-
     $("body").on("updated_checkout", function () {
-
         $.ajax({
             url: mb_localize.admin_url,
             type: "POST",
@@ -17,7 +15,6 @@ jQuery(document).ready(function ($) {
                 }
             }
         });
-
     });
 
 
