@@ -12,8 +12,6 @@ jQuery(document).ready(function ($) {
                 console.log('error');
             },
             success: function (response) {
-                // console.log('response: ', response);
-
                 if (response) {
                     $('#office_address_field_container').html(response);
                 }
