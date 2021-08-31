@@ -1,4 +1,5 @@
 jQuery(document).ready(function ($) {
+    //test
     $("body").on("updated_checkout", function () {
         $.ajax({
             url: mb_localize.admin_url,
