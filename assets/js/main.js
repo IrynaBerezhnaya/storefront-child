@@ -1,22 +1,5 @@
 jQuery(document).ready(function ($) {
 
-    // $('body').on('updated_checkout', function () {
-    //     var $shippingMethod = $('#shipping_method');                  // id родителя радиокнопок
-    //     var $officeAddresses = $('#my_custom_checkout_field');        // новое поле
-    //     var $officeAddressAuto = $('#office_address_field');          // id  tag p - формируется автоматически
-    //
-    //     $val = $shippingMethod.find('input[type="radio"]:checked').val();
-    //
-    //     if ($val === 'local_pickup:11') {
-    //         $officeAddresses.show();
-    //     } else {
-    //         $officeAddresses.hide();
-    //         // $officeAddresses.remove();
-    //     }
-    //     // console.log($val);
-    // });
-
-
     $("body").on("updated_checkout", function () {
 
         $.ajax({
